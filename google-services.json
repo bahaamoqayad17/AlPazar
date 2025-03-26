@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "303896902740",
+    "project_id": "alpazzar",
+    "storage_bucket": "alpazzar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303896902740:android:869c0ce09c5727c93001c1",
+        "android_client_info": {
+          "package_name": "com.alpazar.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303896902740-d1a2i1k42c2c77te4thgu2nnm5oopltg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alpazar.app",
+            "certificate_hash": "0c7f7b859e3118164a8f10b864fbaba2d8df1fbb"
+          }
+        },
+        {
+          "client_id": "303896902740-7ac974kjgi033j8ueaoe0oj5mapcscgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtEUCPgkvwT3Z4GE9jTZvjM1alq0ilVSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303896902740-7ac974kjgi033j8ueaoe0oj5mapcscgn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "303896902740-7euah17pp1mod6g38f2mbaebmk7h3hg0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alpazar.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+{
+  "expo": {
+    "name": "ALPAZAR",
+    "slug": "alpazar-app",
+    "scheme": "alpazar-app",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#05595B"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/AvenirArabic-Light.otf",
+            "./assets/fonts/AvenirArabic-Medium.otf",
+            "./assets/fonts/AvenirArabic-Black.otf",
+            "./assets/fonts/AvenirArabic-Heavy.otf"
+          ]
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#05595B",
+          "image": "./assets/splash-icon.png",
+          "dark": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#05595B"
+          }
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#05595B",
+          "defaultChannel": "default",
+          "enableBackgroundRemoteNotifications": false,
+          "badge": true
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alpazar.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app accesses your photo library to share your posts"
+      }
+    },
+    "android": {
+      "package": "com.alpazar.app",
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "allowBackgroundFetch": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#05595B"
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "supportsRTL": true,
+      "forcesRTL": true,
+      "plugins": [
+        "expo-localization"
+      ],
+      "eas": {
+        "projectId": "f168b699-b8fc-49aa-8323-4ae06c774480"
+      }
+    },
+    "owner": "bahaamoqayad17",
+    "facebookAppId": "1151999652745704",
+    "facebookScheme": "fb1151999652745704",
+    "facebookDisplayName": "ALPAZAR"
+  }
+}
